@@ -1,0 +1,84 @@
+{
+  "mod_elements": [
+    {
+      "name": "CrimsonEssence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_essence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/github/models/item/crimson_essence.json",
+          "src/main/java/net/mcreator/github/item/CrimsonEssenceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BloodBind",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bind",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Reci1bind",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reci_1bind",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/github/recipe/reci_1bind.json"
+        ]
+      }
+    },
+    {
+      "name": "Reci2bind",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reci_2bind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/github/recipe/brewing/Reci2bindBrewingRecipe.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.minecraft.tipped_arrow.effect.blood_bind": "Crimson Tipped Arrow",
+      "item.minecraft.splash_potion.effect.blood_bind": "Splash Potion of Binding",
+      "item.minecraft.lingering_potion.effect.blood_bind": "Lingering Potion of Binding",
+      "item.github.crimson_essence": "Crimson Essence",
+      "item.minecraft.potion.effect.blood_bind": "Potion of Binding"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "github",
+    "modName": "Github",
+    "version": "1.0.0",
+    "author": "saipraneshsaravanakumar, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.github"
+  },
+  "mcreatorVersion": 202400452410
+}

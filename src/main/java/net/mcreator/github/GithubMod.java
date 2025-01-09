@@ -18,6 +18,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.github.init.GithubModTabs;
 import net.mcreator.github.init.GithubModPotions;
 import net.mcreator.github.init.GithubModItems;
 
@@ -40,6 +41,8 @@ public class GithubMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		GithubModItems.REGISTRY.register(modEventBus);
+
+		GithubModTabs.REGISTRY.register(modEventBus);
 
 		GithubModPotions.REGISTRY.register(modEventBus);
 

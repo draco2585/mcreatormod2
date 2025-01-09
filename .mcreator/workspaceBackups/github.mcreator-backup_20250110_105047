@@ -89,52 +89,11 @@
           }
         ]
       }
-    },
-    {
-      "name": "ChargedBlade",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charged_blade",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/github/models/item/charged_blade.json",
-          "src/main/java/net/mcreator/github/item/ChargedBladeItem.java"
-        ]
-      }
-    },
-    {
-      "name": "Reci1charge",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "reci_1charge",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/github/recipe/reci_1charge.json"
-        ]
-      }
-    },
-    {
-      "name": "Reci2charge",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "reci_2charge",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/github/recipe/reci_2charge.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:ChargedBlade"
-    ]
-  },
+  "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
     "en_us": {
@@ -143,8 +102,7 @@
       "item.minecraft.lingering_potion.effect.blood_bind": "Lingering Potion of Binding",
       "item.github.lightning_core": "Lightning Core",
       "item.github.crimson_essence": "Crimson Essence",
-      "item.minecraft.potion.effect.blood_bind": "Potion of Binding",
-      "item.github.charged_blade": "Charged Sickle"
+      "item.minecraft.potion.effect.blood_bind": "Potion of Binding"
     }
   },
   "foldersRoot": {
