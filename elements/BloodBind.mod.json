@@ -1,0 +1,72 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Binding",
+    "splashName": "Splash Potion of Binding",
+    "lingeringName": "Lingering Potion of Binding",
+    "arrowName": "Crimson Tipped Arrow",
+    "effects": [
+      {
+        "effect": {
+          "value": "SLOWNESS"
+        },
+        "duration": 1200,
+        "infinite": false,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "MINING_FATIGUE"
+        },
+        "duration": 1200,
+        "infinite": false,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "WEAKNESS"
+        },
+        "duration": 1200,
+        "infinite": false,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "DARKNESS"
+        },
+        "duration": 1200,
+        "infinite": false,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "POISON"
+        },
+        "duration": 1200,
+        "infinite": false,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "RESISTANCE"
+        },
+        "duration": 40,
+        "infinite": false,
+        "amplifier": 255,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
