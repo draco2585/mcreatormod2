@@ -1,1 +1,7 @@
-{}
+{
+  "item.minecraft.tipped_arrow.effect.blood_bind": "Crimson Tipped Arrow",
+  "item.minecraft.splash_potion.effect.blood_bind": "Splash Potion of Binding",
+  "item.minecraft.lingering_potion.effect.blood_bind": "Lingering Potion of Binding",
+  "item.github.crimson_essence": "Crimson Essence",
+  "item.minecraft.potion.effect.blood_bind": "Potion of Binding"
+}
