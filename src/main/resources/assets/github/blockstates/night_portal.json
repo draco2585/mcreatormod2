@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "github:block/night_portal_ew"
+    },
+    "axis=x": {
+      "model": "github:block/night_portal_ns"
+    }
+  }
+}

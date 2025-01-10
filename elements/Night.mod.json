@@ -1,0 +1,94 @@
+{
+  "_fv": 73,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "deep_dark"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "end_midlands"
+      },
+      {
+        "value": "small_end_islands"
+      },
+      {
+        "value": "end_highlands"
+      },
+      {
+        "value": "end_barrens"
+      },
+      {
+        "value": "the_end"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.CONCRETE#15"
+    },
+    "fluidBlock": {
+      "value": "Blocks.BLACKSTONE"
+    },
+    "seaLevel": 32,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 2,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": true,
+    "cloudHeight": 192.0,
+    "skyType": "NORMAL",
+    "airColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "sunHeightAffectsFog": false,
+    "canRespawnHere": false,
+    "hasFog": true,
+    "ambientLight": 1.0,
+    "doesWaterVaporize": false,
+    "hasFixedTime": true,
+    "fixedTimeValue": 18000,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": true,
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "piglinSafe": true,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
+    "onPlayerLeavesDimension": {
+      "name": "ChargedBladeRightclicked"
+    },
+    "portalFrame": {
+      "value": "Blocks.CONCRETE_POWDER#15"
+    },
+    "portalParticles": {
+      "value": "VILLAGER_ANGRY"
+    },
+    "portalLuminance": 6,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Night Portal Igniter",
+    "igniterRarity": "EPIC",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "texture": "nightportalingniter",
+    "portalTexture": "minecraft:black_concrete",
+    "enablePortal": true
+  }
+}

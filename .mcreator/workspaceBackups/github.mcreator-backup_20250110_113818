@@ -191,21 +191,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "Childrenofthenight",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "childrenofthenight",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/github/client/renderer/ChildrenofthenightRenderer.java",
-          "src/main/resources/assets/github/models/item/childrenofthenight_spawn_egg.json",
-          "src/main/java/net/mcreator/github/entity/ChildrenofthenightEntity.java",
-          "src/main/resources/data/github/neoforge/biome_modifier/childrenofthenight_biome_modifier.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -216,17 +201,12 @@
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Blocks.CONCRETE#15"
-    ],
-    "ENTITIES:minecraft:illager": [
-      "~CUSTOM:Childrenofthenight"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.github.toy_bear": "Toy Bear",
-      "item.github.childrenofthenight_spawn_egg": "jerry Spawn Egg",
-      "entity.github.childrenofthenight": "jerry",
       "item.minecraft.tipped_arrow.effect.blood_bind": "Crimson Tipped Arrow",
       "item.minecraft.splash_potion.effect.blood_bind": "Splash Potion of Binding",
       "item.minecraft.lingering_potion.effect.blood_bind": "Lingering Potion of Binding",

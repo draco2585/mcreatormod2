@@ -21,6 +21,8 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.github.init.GithubModTabs;
 import net.mcreator.github.init.GithubModPotions;
 import net.mcreator.github.init.GithubModItems;
+import net.mcreator.github.init.GithubModEntities;
+import net.mcreator.github.init.GithubModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -40,8 +42,10 @@ public class GithubMod {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 
-		GithubModItems.REGISTRY.register(modEventBus);
+		GithubModBlocks.REGISTRY.register(modEventBus);
 
+		GithubModItems.REGISTRY.register(modEventBus);
+		GithubModEntities.REGISTRY.register(modEventBus);
 		GithubModTabs.REGISTRY.register(modEventBus);
 
 		GithubModPotions.REGISTRY.register(modEventBus);
