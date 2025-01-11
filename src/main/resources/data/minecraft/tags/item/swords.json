@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "github:childs_play",
     "github:charged_blade"
   ]
 }

@@ -21,6 +21,8 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.github.init.GithubModTabs;
 import net.mcreator.github.init.GithubModPotions;
 import net.mcreator.github.init.GithubModItems;
+import net.mcreator.github.init.GithubModFluids;
+import net.mcreator.github.init.GithubModFluidTypes;
 import net.mcreator.github.init.GithubModEntities;
 import net.mcreator.github.init.GithubModBlocks;
 
@@ -49,6 +51,9 @@ public class GithubMod {
 		GithubModTabs.REGISTRY.register(modEventBus);
 
 		GithubModPotions.REGISTRY.register(modEventBus);
+
+		GithubModFluids.REGISTRY.register(modEventBus);
+		GithubModFluidTypes.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

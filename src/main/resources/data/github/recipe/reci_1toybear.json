@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "github:lightning_core"
+    },
+    "b": {
+      "tag": "minecraft:planks"
+    },
+    "c": {
+      "item": "github:toy_bear"
+    },
+    "d": {
+      "item": "github:crimson_essence"
+    }
+  },
+  "result": {
+    "id": "github:childs_play",
+    "count": 1
+  }
+}

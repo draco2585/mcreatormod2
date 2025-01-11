@@ -266,49 +266,6 @@
           "src/main/resources/data/github/recipe/reci_1milk.json"
         ]
       }
-    },
-    {
-      "name": "ChildsPlayToolInHandTick",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "childs_play_tool_in_hand_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/github/procedures/ChildsPlayToolInHandTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "ChildsPlay",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "childs_play",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/github/item/ChildsPlayItem.java",
-          "src/main/resources/assets/github/models/item/childs_play.json"
-        ]
-      }
-    },
-    {
-      "name": "Reci1toybear",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "reci_1toybear",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/github/recipe/reci_1toybear.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -317,14 +274,7 @@
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:PlacebleMilk"
     ],
-    "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:ChildsPlay"
-    ],
-    "ITEMS:minecraft:axes": [
-      "~CUSTOM:ChildsPlay"
-    ],
     "ITEMS:minecraft:swords": [
-      "~CUSTOM:ChildsPlay",
       "~CUSTOM:ChargedBlade"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
@@ -339,7 +289,6 @@
     "en_us": {
       "block.github.placeble_milk": "Placeble Milk",
       "item.github.toy_bear": "Toy Bear",
-      "item.github.childs_play": "bear basher",
       "item.github.childrenofthenight_spawn_egg": "jerry Spawn Egg",
       "item.minecraft.splash_potion.effect.blood_bind": "Splash Potion of Binding",
       "item.minecraft.lingering_potion.effect.blood_bind": "Lingering Potion of Binding",

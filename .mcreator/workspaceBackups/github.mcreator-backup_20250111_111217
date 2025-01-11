@@ -206,125 +206,12 @@
           "src/main/resources/data/github/neoforge/biome_modifier/childrenofthenight_biome_modifier.json"
         ]
       }
-    },
-    {
-      "name": "PlacebleMilkMobplayerCollidesBlock",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "placeble_milk_mobplayer_collides_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/github/procedures/PlacebleMilkMobplayerCollidesBlockProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "PlacebleMilk",
-      "type": "fluid",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "placeble_milk",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/github/item/PlacebleMilkItem.java",
-          "src/main/resources/assets/github/models/item/placeble_milk_bucket.json",
-          "src/main/resources/assets/github/blockstates/placeble_milk.json",
-          "src/main/java/net/mcreator/github/fluid/types/PlacebleMilkFluidType.java",
-          "src/main/java/net/mcreator/github/block/PlacebleMilkBlock.java",
-          "src/main/resources/assets/github/models/block/placeble_milk.json",
-          "src/main/java/net/mcreator/github/fluid/PlacebleMilkFluid.java"
-        ]
-      }
-    },
-    {
-      "name": "Reci1milk",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "reci_1milk",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/github/recipe/reci_1milk.json"
-        ]
-      }
-    },
-    {
-      "name": "ChildsPlayToolInHandTick",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "childs_play_tool_in_hand_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/github/procedures/ChildsPlayToolInHandTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "ChildsPlay",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "childs_play",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/github/item/ChildsPlayItem.java",
-          "src/main/resources/assets/github/models/item/childs_play.json"
-        ]
-      }
-    },
-    {
-      "name": "Reci1toybear",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "reci_1toybear",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/github/recipe/reci_1toybear.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:minecraft:replaceable": [
-      "~CUSTOM:PlacebleMilk"
-    ],
-    "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:ChildsPlay"
-    ],
-    "ITEMS:minecraft:axes": [
-      "~CUSTOM:ChildsPlay"
-    ],
     "ITEMS:minecraft:swords": [
-      "~CUSTOM:ChildsPlay",
       "~CUSTOM:ChargedBlade"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
@@ -337,21 +224,17 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.github.placeble_milk": "Placeble Milk",
       "item.github.toy_bear": "Toy Bear",
-      "item.github.childs_play": "bear basher",
       "item.github.childrenofthenight_spawn_egg": "jerry Spawn Egg",
+      "entity.github.childrenofthenight": "jerry",
+      "item.minecraft.tipped_arrow.effect.blood_bind": "Crimson Tipped Arrow",
       "item.minecraft.splash_potion.effect.blood_bind": "Splash Potion of Binding",
       "item.minecraft.lingering_potion.effect.blood_bind": "Lingering Potion of Binding",
       "item.github.lightning_core": "Lightning Core",
-      "item.github.placeble_milk_bucket": "Placeble Milk Bucket",
-      "item.minecraft.potion.effect.blood_bind": "Potion of Binding",
-      "item.github.charged_blade": "Charged Sickle",
-      "entity.github.childrenofthenight": "jerry",
-      "fluid.github.placeble_milk": "Placeble Milk",
-      "item.minecraft.tipped_arrow.effect.blood_bind": "Crimson Tipped Arrow",
       "item.github.crimson_essence": "Crimson Essence",
-      "item.github.night": "Night Portal Igniter"
+      "item.github.night": "Night Portal Igniter",
+      "item.minecraft.potion.effect.blood_bind": "Potion of Binding",
+      "item.github.charged_blade": "Charged Sickle"
     }
   },
   "foldersRoot": {

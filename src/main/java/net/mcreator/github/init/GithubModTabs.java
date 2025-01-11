@@ -24,6 +24,7 @@ public class GithubModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(GithubModItems.CHARGED_BLADE.get());
 			tabData.accept(GithubModItems.NIGHT.get());
+			tabData.accept(GithubModItems.CHILDS_PLAY.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(GithubModItems.CHILDRENOFTHENIGHT_SPAWN_EGG.get());
 		}
