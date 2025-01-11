@@ -21,12 +21,18 @@ public class GithubModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(GithubModItems.CRIMSON_ESSENCE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(GithubModItems.CHARGED_BLADE.get());
 			tabData.accept(GithubModItems.NIGHT.get());
 			tabData.accept(GithubModItems.CHILDS_PLAY.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(GithubModItems.CHILDRENOFTHENIGHT_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(GithubModItems.PLACEBLE_MILK_BUCKET.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(GithubModBlocks.CORELIGHT.get().asItem());
 		}
 	}
 }

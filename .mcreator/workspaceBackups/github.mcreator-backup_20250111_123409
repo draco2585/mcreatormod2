@@ -1,0 +1,523 @@
+{
+  "mod_elements": [
+    {
+      "name": "CrimsonEssence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_essence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/github/models/item/crimson_essence.json",
+          "src/main/java/net/mcreator/github/item/CrimsonEssenceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BloodBind",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bind",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Reci1bind",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reci_1bind",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/github/recipe/reci_1bind.json"
+        ]
+      }
+    },
+    {
+      "name": "Reci2bind",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reci_2bind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/github/recipe/brewing/Reci2bindBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "LightningCore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/github/item/LightningCoreItem.java",
+          "src/main/resources/assets/github/models/item/lightning_core.json"
+        ]
+      }
+    },
+    {
+      "name": "ChargedBladeRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_blade_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/github/procedures/ChargedBladeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChargedBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/github/models/item/charged_blade.json",
+          "src/main/java/net/mcreator/github/item/ChargedBladeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Reci1charge",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reci_1charge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/github/recipe/reci_1charge.json"
+        ]
+      }
+    },
+    {
+      "name": "Reci2charge",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reci_2charge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/github/recipe/reci_2charge.json"
+        ]
+      }
+    },
+    {
+      "name": "Night",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/github/models/block/night_portal_ew.json",
+          "src/main/java/net/mcreator/github/world/teleporter/NightTeleporter.java",
+          "src/main/resources/data/github/dimension/night.json",
+          "src/main/java/net/mcreator/github/world/teleporter/NightPortalShape.java",
+          "src/main/java/net/mcreator/github/item/NightItem.java",
+          "src/main/resources/assets/github/blockstates/night_portal.json",
+          "src/main/java/net/mcreator/github/world/dimension/NightDimension.java",
+          "src/main/resources/data/github/dimension_type/night.json",
+          "src/main/resources/assets/github/models/item/night.json",
+          "src/main/java/net/mcreator/github/block/NightPortalBlock.java",
+          "src/main/resources/assets/github/models/block/night_portal_ns.json"
+        ]
+      }
+    },
+    {
+      "name": "ToyBear",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toy_bear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/github/models/item/toy_bear.json",
+          "src/main/java/net/mcreator/github/item/ToyBearItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ChildrenofthenightEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "childrenofthenight_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/github/procedures/ChildrenofthenightEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Childrenofthenight",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "childrenofthenight",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/github/client/renderer/ChildrenofthenightRenderer.java",
+          "src/main/resources/assets/github/models/item/childrenofthenight_spawn_egg.json",
+          "src/main/java/net/mcreator/github/entity/ChildrenofthenightEntity.java",
+          "src/main/resources/data/github/neoforge/biome_modifier/childrenofthenight_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "PlacebleMilkMobplayerCollidesBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "placeble_milk_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/github/procedures/PlacebleMilkMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlacebleMilk",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "placeble_milk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/github/item/PlacebleMilkItem.java",
+          "src/main/resources/assets/github/models/item/placeble_milk_bucket.json",
+          "src/main/resources/assets/github/blockstates/placeble_milk.json",
+          "src/main/java/net/mcreator/github/fluid/types/PlacebleMilkFluidType.java",
+          "src/main/java/net/mcreator/github/block/PlacebleMilkBlock.java",
+          "src/main/resources/assets/github/models/block/placeble_milk.json",
+          "src/main/java/net/mcreator/github/fluid/PlacebleMilkFluid.java"
+        ]
+      }
+    },
+    {
+      "name": "Reci1milk",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reci_1milk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/github/recipe/reci_1milk.json"
+        ]
+      }
+    },
+    {
+      "name": "ChildsPlayToolInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "childs_play_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/github/procedures/ChildsPlayToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChildsPlay",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "childs_play",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/github/item/ChildsPlayItem.java",
+          "src/main/resources/assets/github/models/item/childs_play.json"
+        ]
+      }
+    },
+    {
+      "name": "Reci1toybear",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reci_1toybear",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/github/recipe/reci_1toybear.json"
+        ]
+      }
+    },
+    {
+      "name": "Ely",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ely",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/github/recipe/ely.json"
+        ]
+      }
+    },
+    {
+      "name": "Jeff",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jeff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/github/textures/entity/villager/profession/jeff.png.mcmeta"
+        ]
+      }
+    },
+    {
+      "name": "Jeffttradde",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jeffttradde",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SpeelRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speel_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/github/procedures/SpeelRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Speel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/github/item/SpeelItem.java",
+          "src/main/resources/assets/github/models/item/speel.json"
+        ]
+      }
+    },
+    {
+      "name": "Reci1villager",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reci_1villager",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/github/recipe/reci_1villager.json"
+        ]
+      }
+    },
+    {
+      "name": "CurseOfMight",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curse_of_might",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/github/enchantment/curse_of_might.json"
+        ]
+      }
+    },
+    {
+      "name": "Corelight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corelight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/github/loot_table/blocks/corelight.json",
+          "src/main/resources/assets/github/blockstates/corelight.json",
+          "src/main/resources/assets/github/models/item/corelight.json",
+          "src/main/resources/assets/github/models/block/corelight.json",
+          "src/main/java/net/mcreator/github/block/entity/CorelightBlockEntity.java",
+          "src/main/java/net/mcreator/github/block/CorelightBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Reci1corelight",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reci_1corelight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/github/recipe/reci_1corelight.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:PlacebleMilk"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:Corelight"
+    ],
+    "ENCHANTMENTS:minecraft:non_treasure": [
+      "~CUSTOM:CurseOfMight"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ChildsPlay"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:ChildsPlay"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:ChildsPlay",
+      "~CUSTOM:ChargedBlade"
+    ],
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CUSTOM:CurseOfMight"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.CONCRETE#15"
+    ],
+    "ENTITIES:minecraft:illager": [
+      "~CUSTOM:Childrenofthenight"
+    ],
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:CurseOfMight"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.github.placeble_milk": "Placeble Milk",
+      "item.github.toy_bear": "Toy Bear",
+      "item.github.childs_play": "bear basher",
+      "item.github.speel": "Vilalger cast",
+      "item.github.childrenofthenight_spawn_egg": "jerry Spawn Egg",
+      "item.minecraft.splash_potion.effect.blood_bind": "Splash Potion of Binding",
+      "item.minecraft.lingering_potion.effect.blood_bind": "Lingering Potion of Binding",
+      "item.github.lightning_core": "Lightning Core",
+      "item.github.placeble_milk_bucket": "Placeble Milk Bucket",
+      "entity.minecraft.villager.github.jeff": "Jeff",
+      "item.minecraft.potion.effect.blood_bind": "Potion of Binding",
+      "item.github.charged_blade": "Charged Sickle",
+      "block.github.corelight": "core of light",
+      "entity.github.childrenofthenight": "jerry",
+      "fluid.github.placeble_milk": "Placeble Milk",
+      "item.minecraft.tipped_arrow.effect.blood_bind": "Crimson Tipped Arrow",
+      "item.github.crimson_essence": "Crimson Essence",
+      "item.github.night": "Night Portal Igniter",
+      "enchantment.github.curse_of_might": "Might"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "github",
+    "modName": "Github",
+    "version": "1.0.0",
+    "author": "saipraneshsaravanakumar, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.github"
+  },
+  "mcreatorVersion": 202400452410
+}

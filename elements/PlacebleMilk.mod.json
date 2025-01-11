@@ -31,7 +31,11 @@
     "type": "WATER",
     "generateBucket": true,
     "textureBucket": "minecraft:milk_bucket",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "FOOD"
+      }
+    ],
     "emptySound": {
       "value": ""
     },

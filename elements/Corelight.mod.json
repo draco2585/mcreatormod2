@@ -42,7 +42,11 @@
     "resistance": 113.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "REDSTONE"
+      }
+    ],
     "destroyTool": "hoe",
     "customDrop": {
       "value": ""

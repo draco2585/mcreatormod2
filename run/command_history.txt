@@ -1,0 +1,5 @@
+/summon github:childrenofthenight
+/clear
+/effect clear
+/clear
+/gamemode survival
