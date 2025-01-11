@@ -12,3 +12,5 @@ and adds random stuff that i think mojang would never add
 i will try to add more compatibility for other mods
 looking for someone to make textures i will not pay you though
 so make a texture pack for this mod
+this is registred under github.java
+sorry for any confusion i started the project with that anme
