@@ -1,0 +1,108 @@
+{
+  "_fv": 73,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Jeff"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CrimsonEssence"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:LightningCore"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ChargedBlade"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 100,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Jeff"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Blocks.COPPER_BLOCK"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": "CUSTOM:LightningCore"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ChargedBlade"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 100,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Jeff"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:ChargedBlade"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:CrimsonEssence"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Night"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 2,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Jeff"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.MILK_BUCKET"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:PlacebleMilk.bucket"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_fv": 73,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Jeff",
+    "pointOfInterest": {
+      "value": "Blocks.STRIPPED_BIRCH_LOG"
+    },
+    "actionSound": {
+      "value": "entity.wandering_trader.drink_potion"
+    },
+    "hat": "Full",
+    "professionTextureFile": "8fbd43e40b2dfd8668616a3ffb67a3896b5e80be.png",
+    "zombifiedProfessionTextureFile": "8fbd43e40b2dfd8668616a3ffb67a3896b5e80be.png"
+  }
+}

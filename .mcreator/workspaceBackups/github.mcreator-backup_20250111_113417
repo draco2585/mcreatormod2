@@ -309,83 +309,6 @@
           "src/main/resources/data/github/recipe/reci_1toybear.json"
         ]
       }
-    },
-    {
-      "name": "Ely",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ely",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/github/recipe/ely.json"
-        ]
-      }
-    },
-    {
-      "name": "Jeff",
-      "type": "villagerprofession",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jeff",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/github/textures/entity/villager/profession/jeff.png.mcmeta"
-        ]
-      }
-    },
-    {
-      "name": "Jeffttradde",
-      "type": "villagertrade",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jeffttradde",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
-      "name": "SpeelRightclickedOnBlock",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "speel_rightclicked_on_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/github/procedures/SpeelRightclickedOnBlockProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Speel",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "speel",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/github/item/SpeelItem.java",
-          "src/main/resources/assets/github/models/item/speel.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -417,13 +340,11 @@
       "block.github.placeble_milk": "Placeble Milk",
       "item.github.toy_bear": "Toy Bear",
       "item.github.childs_play": "bear basher",
-      "item.github.speel": "Vilalger cast",
       "item.github.childrenofthenight_spawn_egg": "jerry Spawn Egg",
       "item.minecraft.splash_potion.effect.blood_bind": "Splash Potion of Binding",
       "item.minecraft.lingering_potion.effect.blood_bind": "Lingering Potion of Binding",
       "item.github.lightning_core": "Lightning Core",
       "item.github.placeble_milk_bucket": "Placeble Milk Bucket",
-      "entity.minecraft.villager.github.jeff": "Jeff",
       "item.minecraft.potion.effect.blood_bind": "Potion of Binding",
       "item.github.charged_blade": "Charged Sickle",
       "entity.github.childrenofthenight": "jerry",

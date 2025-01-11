@@ -18,6 +18,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.github.init.GithubModVillagerProfessions;
 import net.mcreator.github.init.GithubModTabs;
 import net.mcreator.github.init.GithubModPotions;
 import net.mcreator.github.init.GithubModItems;
@@ -52,6 +53,7 @@ public class GithubMod {
 
 		GithubModPotions.REGISTRY.register(modEventBus);
 
+		GithubModVillagerProfessions.PROFESSIONS.register(modEventBus);
 		GithubModFluids.REGISTRY.register(modEventBus);
 		GithubModFluidTypes.REGISTRY.register(modEventBus);
 

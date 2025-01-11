@@ -333,59 +333,6 @@
           "src/main/resources/assets/github/textures/entity/villager/profession/jeff.png.mcmeta"
         ]
       }
-    },
-    {
-      "name": "Jeffttradde",
-      "type": "villagertrade",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jeffttradde",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
-      "name": "SpeelRightclickedOnBlock",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "speel_rightclicked_on_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/github/procedures/SpeelRightclickedOnBlockProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Speel",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "speel",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/github/item/SpeelItem.java",
-          "src/main/resources/assets/github/models/item/speel.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -417,7 +364,6 @@
       "block.github.placeble_milk": "Placeble Milk",
       "item.github.toy_bear": "Toy Bear",
       "item.github.childs_play": "bear basher",
-      "item.github.speel": "Vilalger cast",
       "item.github.childrenofthenight_spawn_egg": "jerry Spawn Egg",
       "item.minecraft.splash_potion.effect.blood_bind": "Splash Potion of Binding",
       "item.minecraft.lingering_potion.effect.blood_bind": "Lingering Potion of Binding",
