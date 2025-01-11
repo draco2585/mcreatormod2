@@ -1,11 +1,9 @@
 {
   "workspacePanelIconSize": "TILES",
-  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortType": "NAME",
   "workspacePanelSortAscending": true,
   "projectBrowserSplitPos": 0,
   "projectBrowserState": {
-    "expandedPaths": [
-      "[, Github]"
-    ]
+    "expandedPaths": []
   }
 }
