@@ -11,9 +11,11 @@
   "entity.minecraft.villager.github.jeff": "Jeff",
   "item.minecraft.potion.effect.blood_bind": "Potion of Binding",
   "item.github.charged_blade": "Charged Sickle",
+  "block.github.corelight": "core of light",
   "entity.github.childrenofthenight": "jerry",
   "fluid.github.placeble_milk": "Placeble Milk",
   "item.minecraft.tipped_arrow.effect.blood_bind": "Crimson Tipped Arrow",
   "item.github.crimson_essence": "Crimson Essence",
-  "item.github.night": "Night Portal Igniter"
+  "item.github.night": "Night Portal Igniter",
+  "enchantment.github.curse_of_might": "Might"
 }

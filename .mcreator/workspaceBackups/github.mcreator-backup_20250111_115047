@@ -398,47 +398,6 @@
           "src/main/resources/data/github/recipe/reci_1villager.json"
         ]
       }
-    },
-    {
-      "name": "CurseOfMight",
-      "type": "enchantment",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "curse_of_might",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/github/enchantment/curse_of_might.json"
-        ]
-      }
-    },
-    {
-      "name": "Corelight",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "corelight",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/github/loot_table/blocks/corelight.json",
-          "src/main/resources/assets/github/blockstates/corelight.json",
-          "src/main/resources/assets/github/models/item/corelight.json",
-          "src/main/resources/assets/github/models/block/corelight.json",
-          "src/main/java/net/mcreator/github/block/entity/CorelightBlockEntity.java",
-          "src/main/java/net/mcreator/github/block/CorelightBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "Reci1corelight",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "reci_1corelight",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/github/recipe/reci_1corelight.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -446,12 +405,6 @@
   "tag_elements": {
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:PlacebleMilk"
-    ],
-    "BLOCKS:minecraft:mineable/hoe": [
-      "~CUSTOM:Corelight"
-    ],
-    "ENCHANTMENTS:minecraft:non_treasure": [
-      "~CUSTOM:CurseOfMight"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:ChildsPlay"
@@ -463,17 +416,11 @@
       "~CUSTOM:ChildsPlay",
       "~CUSTOM:ChargedBlade"
     ],
-    "ENCHANTMENTS:minecraft:on_random_loot": [
-      "~CUSTOM:CurseOfMight"
-    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Blocks.CONCRETE#15"
     ],
     "ENTITIES:minecraft:illager": [
       "~CUSTOM:Childrenofthenight"
-    ],
-    "ENCHANTMENTS:minecraft:tradeable": [
-      "~CUSTOM:CurseOfMight"
     ]
   },
   "tab_element_order": {},
@@ -491,13 +438,11 @@
       "entity.minecraft.villager.github.jeff": "Jeff",
       "item.minecraft.potion.effect.blood_bind": "Potion of Binding",
       "item.github.charged_blade": "Charged Sickle",
-      "block.github.corelight": "core of light",
       "entity.github.childrenofthenight": "jerry",
       "fluid.github.placeble_milk": "Placeble Milk",
       "item.minecraft.tipped_arrow.effect.blood_bind": "Crimson Tipped Arrow",
       "item.github.crimson_essence": "Crimson Essence",
-      "item.github.night": "Night Portal Igniter",
-      "enchantment.github.curse_of_might": "Might"
+      "item.github.night": "Night Portal Igniter"
     }
   },
   "foldersRoot": {

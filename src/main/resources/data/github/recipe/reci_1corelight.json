@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    },
+    "b": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "c": {
+      "item": "minecraft:redstone_block"
+    },
+    "d": {
+      "item": "minecraft:redstone_lamp"
+    }
+  },
+  "result": {
+    "id": "github:corelight",
+    "count": 1
+  }
+}

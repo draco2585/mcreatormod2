@@ -26,6 +26,7 @@ import net.mcreator.github.init.GithubModFluids;
 import net.mcreator.github.init.GithubModFluidTypes;
 import net.mcreator.github.init.GithubModEntities;
 import net.mcreator.github.init.GithubModBlocks;
+import net.mcreator.github.init.GithubModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -46,7 +47,7 @@ public class GithubMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		GithubModBlocks.REGISTRY.register(modEventBus);
-
+		GithubModBlockEntities.REGISTRY.register(modEventBus);
 		GithubModItems.REGISTRY.register(modEventBus);
 		GithubModEntities.REGISTRY.register(modEventBus);
 		GithubModTabs.REGISTRY.register(modEventBus);
