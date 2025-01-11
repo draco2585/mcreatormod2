@@ -11,6 +11,7 @@ import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.github.item.ToyBearItem;
+import net.mcreator.github.item.SpeelItem;
 import net.mcreator.github.item.PlacebleMilkItem;
 import net.mcreator.github.item.NightItem;
 import net.mcreator.github.item.LightningCoreItem;

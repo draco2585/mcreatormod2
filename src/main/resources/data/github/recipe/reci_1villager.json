@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    " d ",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:potato"
+    },
+    "b": {
+      "item": "minecraft:beetroot"
+    },
+    "c": {
+      "item": "minecraft:bread"
+    },
+    "d": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "id": "github:speel",
+    "count": 1
+  }
+}
